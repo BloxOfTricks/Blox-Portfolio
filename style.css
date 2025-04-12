@@ -56,22 +56,42 @@ nav ul li a {
 }
 
 .hero h1 {
-    color: #111; /* Darker text color */
-    font-weight: bold; /* Makes it stand out */
+    color: white; /* Hero text color set to white */
+    font-weight: bold;
     font-size: 50px;
 }
 
 .hero p {
     font-size: 22px;
     margin-top: 10px;
-    color: #100; /* Darker text color */
-    font-weight: bold; /* Makes it stand out */
+    color: white; /* Hero text color set to white */
+    font-weight: bold;
 }
 
-/* Darker Background Behind Header Text */
+/* Hero Content Background */
 .hero-content {
-    background: rgba(50, 50, 50, 0.6); /* Darker transparent background */
+    background: rgba(50, 50, 50, 0.6);
     padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* Music Instruction Section */
+.music-instruction {
+    padding: 20px;
+    background-color: #fff3f8; /* Light pink background */
+    margin-bottom: 30px;
+}
+
+.music-instruction p {
+    font-size: 18px;
+    color: #e91e63; /* Pink text color */
+    font-weight: bold;
+}
+
+.instruction-image {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
     border-radius: 10px;
 }
 
@@ -151,9 +171,9 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Modal styles */
+/* Modal Styles */
 .modal {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -161,7 +181,7 @@ button:hover {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+    background-color: rgba(0, 0, 0, 0.4);
     padding-top: 60px;
 }
 
@@ -214,5 +234,5 @@ button:hover {
 .item-profit {
     margin-top: 5px;
     font-size: 18px;
-    color: black;
+    color: #4CAF50;
 }
