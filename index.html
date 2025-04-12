@@ -21,8 +21,16 @@
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-        <h1>BloxOfTricks</h1>
-        <p>A Roblox developer, still training to make the best games possible</p>
+        <div class="hero-content">
+            <h1>BloxOfTricks</h1>
+            <p>A Roblox developer, still training to make the best games possible</p>
+        </div>
+    </section>
+
+    <!-- Music Instruction Section -->
+    <section class="music-instruction">
+        <p>Click where this pink line is to play the music!</p>
+        <img src="https://i.imgur.com/WB3EMb0.png" alt="Play the Music" class="instruction-image">
     </section>
 
     <!-- Portfolio Section -->
@@ -46,110 +54,29 @@
             <h3>Avatar Items</h3>
             <button onclick="openModal('Avatar')">View Details</button>
         </div>
-                <!-- New Project 4: Music -->
+        
+        <!-- Project 4: Music -->
         <div class="project">
             <h3>Music</h3>
             <button onclick="openModal('Music')">View Details</button>
         </div>
-    </div>
-</section>
-
-<!-- Modal for Music -->
-<div id="Music" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal('Music')">&times;</span>
-        <h2>Music Project</h2>
-        <p>A chill background track you can use in open world environments.</p>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no"
-            allow="autoplay"
-            src="https://audio.com/embed/anonymous/audio/open-world-relaxing-background-music">
-        </iframe>
-    </div>
-</div>
-    <div id="Experiences" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('Experiences')">&times;</span>
-            <h2>Experiences</h2>
-            <div class="items-list">
-                <div class="item">
-                    <a href="https://www.roblox.com/games/18472928943" target="_blank">
-                        <img src="https://i.imgur.com/D4T2tqp.png" alt="Blox's RNG" class="item-image">
-                    </a>
-                    <h3 class="item-title">Blox's RNG</h3>
-                    <p class="item-profit">Profit: R$ 600</p>
-                </div>
-                <div class="item">
-                    <a href="https://www.roblox.com/games/92222740243551" target="_blank">
-                        <img src="https://i.imgur.com/gXU7AsP.png" alt="Project Airborne" class="item-image">
-                    </a>
-                    <h3 class="item-title">Project Airborne</h3>
-                    <p class="item-profit">Profit: N/A</p>
-                </div>
-                <div class="item">
-                    <img src="item3.jpg" alt="Item 3" class="item-image">
-                    <h3 class="item-title">Item 3 Title</h3>
-                    <p class="item-profit">Profit: $200</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal for Project 2 -->
-    <div id="3D-Models" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('3D-Models')">&times;</span>
-            <h2>3D Models</h2>
-            <div class="items-list">
-                <div class="item">
-                    <img src="item4.jpg" alt="Item 4" class="item-image">
-                    <h3 class="item-title">Item 4 Title</h3>
-                    <p class="item-profit">Profit: $250</p>
-                </div>
-                <div class="item">
-                    <img src="item5.jpg" alt="Item 5" class="item-image">
-                    <h3 class="item-title">Item 5 Title</h3>
-                    <p class="item-profit">Profit: $300</p>
-                </div>
-                <div class="item">
-                    <img src="item6.jpg" alt="Item 6" class="item-image">
-                    <h3 class="item-title">Item 6 Title</h3>
-                    <p class="item-profit">Profit: $350</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal for Project 3 -->
-    <div id="Avatar" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('Avatar')">&times;</span>
-            <h2>Avatar Items</h2>
-            <div class="items-list">
-                <div class="item">
-                    <img src="item7.jpg" alt="Item 7" class="item-image">
-                    <h3 class="item-title">Item 7 Title</h3>
-                    <p class="item-profit">Profit: $400</p>
-                </div>
-                <div class="item">
-                    <img src="item8.jpg" alt="Item 8" class="item-image">
-                    <h3 class="item-title">Item 8 Title</h3>
-                    <p class="item-profit">Profit: $450</p>
-                </div>
-                <div class="item">
-                    <img src="item9.jpg" alt="Item 9" class="item-image">
-                    <h3 class="item-title">Item 9 Title</h3>
-                    <p class="item-profit">Profit: $500</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="discord-server" id="discord-server">
-        <h2>My Discord Server</h2>
-        <p>Join my Discord server to chat, collaborate, and stay updated with the latest developments!</p>
-        <!-- Embed Discord Widget -->
-        <iframe src="https://discord.com/widget?id=1357036201105821973&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
     </section>
+
+    <!-- Modal for Music -->
+    <div id="Music" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('Music')">&times;</span>
+            <h2>Music Project</h2>
+            <p>A chill background track you can use in open world environments.</p>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no"
+                allow="autoplay"
+                src="https://audio.com/anonymous/audio/open-world-relaxing-background-music">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Modals for Other Projects -->
+    <!-- Add your other project modals here -->
 
     <!-- Contact Section -->
     <section class="contact" id="contact">
@@ -166,5 +93,6 @@
     <footer>
         <p>&copy; 2025 BloxOfTricks. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
